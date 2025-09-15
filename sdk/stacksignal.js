@@ -142,7 +142,7 @@ const STACKSIGNAL_SESSION_ID = getOrCreateSessionId();
 
     let iframe = document.createElement('iframe');
     // iframe.src = (window.StackSignalWidgetConfig?.apiBase) || 'http://localhost:3000';
-    iframe.src = 'http://localhost:3000'; // Add cache busting
+    iframe.src = 'https://widget-ten-bice.vercel.app/'; // Add cache busting
     // iframe.onload = function () {
     //     iframe.contentWindow.postMessage({
     //         type: 'STACKSIGNAL_CONFIG',
