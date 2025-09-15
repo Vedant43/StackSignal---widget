@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="http://0.0.0.0:8080/stacksignal.js"></script> -->
+    <script>
+        (function(){
+            var s = document.createElement("script");
+            s.src = "http://0.0.0.0:8080/stacksignal.js";
+            s.onload = function(){
+            window.StackSignalWidget.init({
+                clientId: "28648897-c019-4cd9-b88f-e73d0d61f33e",
+                apiBase: "https://api.stacksignal.io"
+            });
+            };
+            document.head.appendChild(s);
+        })();
+    </script>
+
+</head>
+<body>
+    <script>
+        console.log('StackSignal script loaded');
+        console.warn('StackSignal warning test');
+        console.error('StackSignal error test');
+        console.info('StackSignal info test');
+    </script>
+</body>
+</html>

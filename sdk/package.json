@@ -1,0 +1,15 @@
+{
+  "name": "stacksignal-sdk",
+  "version": "1.0.8",
+  "main": "stacksignal.js",
+  "files": [
+    "stacksignal.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
